@@ -26,6 +26,14 @@
         <span>${user.email}</span><br>
         <label>Date of Birth:</label>
         <span>${user.dateOfBirth}</span><br>
+        <label>Heard From:</label>
+        <span>${user.heardFrom}</span><br>
+        <label>Contact for Offers:</label>
+        <span>${user.wantAnnouncements}</span><br>
+        <label>Send Email Announcements:</label>
+        <span>${user.wantSendEmail}</span><br>
+        <label>Preferred Contact:</label>
+        <span>${user.contactMethod}</span><br>
         <p>To enter another email address, click on the Back 
             button in your browser or the Return button shown 
             below.</p>
