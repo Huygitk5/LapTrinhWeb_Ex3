@@ -10,6 +10,8 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+import jakarta.servlet.annotation.WebServlet;
+
 import murach.business.User;
 //import murach.data.UserDB;
 
@@ -17,6 +19,7 @@ import murach.business.User;
  *
  * @author ASUS
  */
+@WebServlet("/emailList")
 public class EmailListServlet extends HttpServlet {
 
     @Override
