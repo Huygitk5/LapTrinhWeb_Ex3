@@ -19,7 +19,6 @@ import murach.business.User;
  *
  * @author ASUS
  */
-@WebServlet("/emailList")
 public class EmailListServlet extends HttpServlet {
 
     @Override
