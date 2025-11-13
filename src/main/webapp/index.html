@@ -17,16 +17,16 @@
         <form action="emailList" method="post"> 
             <input type="hidden" name="action" value="add">
          
-            <label>First Name</label>
+            <label><b>First Name</b></label>
             <input type="text" name="firstName" required><br>
             
-            <label>Last Name</label>
+            <label><b>Last Name</b></label>
             <input type="text" name="lastName" required><br>
             
-            <label>Email</label>
+            <label><b>Email</b></label>
             <input type="email" name="email" required><br>
             
-            <label>Date of Birth</label>
+            <label><b>Date of Birth</b></label>
             <input type="text" name="dateOfBirth"><br>
             
             <h1>How did you hear about us?</h1>
@@ -44,7 +44,7 @@
             <input type="checkbox" name="wantAnnouncements">YES, I'd like that.<br>
             <input type="checkbox" name="wantSendEmail">YES, please send me email announcements.<br>
             
-            <label>Please contact me by: &nbsp;</label>
+            <p style="display: inline-block;">Please contact me by:</p>
             
             <select name="contactMethod">
                 <option value="Email or postal mail" selected>Email or postal mail</option>
@@ -52,7 +52,6 @@
                 <option value="Postal mail only">Postal mail only</option>
             </select><br>
             
-            <label>&nbsp;</label>
             <input type="submit" value="Submit" id="submit">
         </form>
     </body>

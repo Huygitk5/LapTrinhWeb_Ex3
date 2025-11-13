@@ -31,6 +31,3 @@ input[type="text"], input[type="email"] {
 br {
     clear: both;
 }
-#submit {
-    margin-left: 0.5em; 
-}
